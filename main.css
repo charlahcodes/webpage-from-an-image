@@ -19,7 +19,6 @@
   max-height: 375px;
   overflow: hidden;
   padding-bottom: 32.5%;
-  padding-top: -20px;
   position: relative;
   background-image: url(background.jpg);
 }
@@ -46,14 +45,24 @@
   float: left;
   width: 24%;
   text-align: center;
-  color: white;
-  background-color: #519150;
+  color: black;
   height: 180px;
-  margin-left: 15%;
+  margin-left: 12.5%;
+}
+
+.choices ul {
+  list-style: none;
+  padding: 0;
 }
 
 .green {
   background-color: #519150;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  margin-bottom: 30%;
+
+
+
 }
 
 .choices .center {
@@ -71,7 +80,7 @@
   background-color: black;
   text-align: center;
   color: white;
-  margin-right: 10%;
+  margin-right: 12.5%;
 }
 
 
