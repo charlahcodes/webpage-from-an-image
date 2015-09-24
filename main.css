@@ -1,0 +1,84 @@
+.header {
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #636970;
+  padding-right: 20px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+}
+
+.header a:hover {color: #101010;}
+
+.mainimage {
+  max-height: 375px;
+  overflow: hidden;
+  padding-bottom: 32.5%;
+  padding-top: -20px;
+  position: relative;
+  background-image: url(background.jpg);
+}
+
+.mainimage img {
+  max-width: 100%;
+}
+
+.mainimage .text {
+    position:absolute;
+    text-align:center;
+    top: 38%;
+    width: 100%;
+    color: white;
+    font-size: 45px;
+    text-shadow: 1px 1px black;
+}
+
+.choices {
+  padding-top: 4.4%;
+}
+
+.choices .left {
+  float: left;
+  width: 24%;
+  text-align: center;
+  color: white;
+  background-color: #519150;
+  height: 180px;
+  margin-left: 15%;
+}
+
+.green {
+  background-color: #519150;
+}
+
+.choices .center {
+  display: inline-block;
+  width: 24%;
+  background-color: #2A4787;
+  text-align: center;
+  color: white;
+  margin-left: 1.5%;
+}
+
+.choices .right {
+  float: right;
+  width: 24%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin-right: 10%;
+}
+
+
+.sellingpoints {
+
+}
+
+.footer {
+
+}
