@@ -45,24 +45,10 @@
   float: left;
   width: 24%;
   text-align: center;
-  color: black;
+  background-color: #519150;
+  color: white;
   height: 180px;
   margin-left: 12.5%;
-}
-
-.choices ul {
-  list-style: none;
-  padding: 0;
-}
-
-.green {
-  background-color: #519150;
-  padding-top: 30%;
-  padding-bottom: 30%;
-  margin-bottom: 30%;
-
-
-
 }
 
 .choices .center {
@@ -71,7 +57,9 @@
   background-color: #2A4787;
   text-align: center;
   color: white;
+  height: 180px;
   margin-left: 1.5%;
+
 }
 
 .choices .right {
@@ -80,11 +68,89 @@
   background-color: black;
   text-align: center;
   color: white;
+  height: 180px;
   margin-right: 12.5%;
 }
 
+.choices .topbox {
+  padding: 10%;
+}
+
+.membershiptype {
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.price {
+
+}
+
+.permonth {
+
+}
+
+.choices ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0px;
+}
+
+.grayboxes {
+  background-color: #F7F7F7;
+  border: 1px solid #DDDDDD;
+  padding: 4%;
+  color: #516066;
+}
+
+.choosebox {
+  border: 1px solid #DDDDDD;
+  padding: 8%;
+  font-weight: bold;
+  color: #333333;
+  border-radius: 2px;
+
+}
+
+.choosebutton {
+  border: 1px solid #DDDDDD;
+  border-radius: 100px;
+  display: inline-block;
+  padding: 8px 16px;
+
+}
 
 .sellingpoints {
+  padding-top: 7.5%;
+  width: 100%;
+  
+}
+
+.sellingpointheader {
+
+}
+
+.sellingpointbody {
+  position: absolute;
+  width: 80%;
+}
+
+.topleft {
+  display: inline-block;
+  width: 40%;
+  position: relative;
+}
+
+.topright {
+  display: inline-block;
+  width: 40%;
+  position: relative;
+}
+
+.bottomright {
+
+}
+
+.bottomleft {
 
 }
 
