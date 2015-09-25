@@ -122,7 +122,8 @@
 .sellingpoints {
   padding-top: 7.5%;
   width: 100%;
-  
+  text-align: center;
+
 }
 
 .sellingpointheader {
@@ -131,29 +132,42 @@
 
 .sellingpointbody {
   position: absolute;
-  width: 80%;
 }
 
 .topleft {
-  display: inline-block;
-  width: 40%;
+  float: left;
+  margin-left: 12%;
+  width: 35%;
   position: relative;
+  text-align: left;
 }
 
 .topright {
-  display: inline-block;
-  width: 40%;
+  float: right;
+  margin-right: 12%;
+  width: 35%;
   position: relative;
+  text-align: left;
 }
 
 .bottomright {
-
+  float: right;
+  margin-right: 12%;
+  width: 35%;
+  position: relative;
+  padding-top: 15%;
+  text-align: left;
 }
 
 .bottomleft {
-
+  float: left;
+  margin-left: 12%;
+  width: 35%;
+  position: relative;
+  padding-top: 15%;
+  text-align: left;
 }
 
-.footer {
-
+footer {
+  clear: all;
 }
