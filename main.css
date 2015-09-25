@@ -123,7 +123,6 @@
   padding-top: 7.5%;
   width: 100%;
   text-align: center;
-
 }
 
 .sellingpointheader {
@@ -168,6 +167,12 @@
   text-align: left;
 }
 
-footer {
-  clear: all;
+.footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  clear: left;
+  padding: 2.5%;
+  max-height: 40px;
+  margin-top: 38%;
 }
