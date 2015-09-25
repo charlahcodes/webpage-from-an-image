@@ -17,6 +17,10 @@
   padding-bottom: 20px;
 }
 
+.logo {
+  color: #5D646B
+}
+
 .header a:hover {color: #101010;}
 
 .mainimage {
@@ -32,13 +36,13 @@
 }
 
 .mainimage .text {
-    position:absolute;
-    text-align:center;
-    top: 38%;
-    width: 100%;
-    color: white;
-    font-size: 45px;
-    text-shadow: 1px 1px black;
+  position: absolute;
+  text-align: center;
+  top: 38%;
+  width: 100%;
+  color: white;
+  font-size: 45px;
+  text-shadow: 1px 1px black;
 }
 
 .choices {
@@ -129,22 +133,27 @@
 
 .sellingpoints {
   padding-top: 3%;
-  margin-top: 3%;
+  margin-top: 4.2%;
   width: 100%;
   text-align: center;
 }
 
 .sellingpointheader {
-
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #1B1B1B;
 }
 
 .sellingpointbody {
   position: absolute;
+  margin-top: -1%;
+  line-height: 160%;
+  color: #53656B;
 }
 
 .topleft {
   float: left;
-  margin-left: 12%;
+  margin-left: 13.8%;
   width: 35%;
   position: relative;
   text-align: left;
@@ -152,7 +161,7 @@
 
 .topright {
   float: right;
-  margin-right: 12%;
+  margin-right: 12.4%;
   width: 35%;
   position: relative;
   text-align: left;
@@ -160,7 +169,8 @@
 
 .bottomright {
   float: right;
-  margin-right: 12%;
+  margin-right: 12.4%;
+  margin-top: 2.5%;
   width: 35%;
   position: relative;
   padding-top: 15%;
@@ -169,7 +179,8 @@
 
 .bottomleft {
   float: left;
-  margin-left: 12%;
+  margin-left: 13.8%;
+  margin-top: 2.5%;
   width: 35%;
   position: relative;
   padding-top: 15%;
@@ -183,7 +194,7 @@
   clear: left;
   padding: 2.5%;
   max-height: 40px;
-  margin-top: 38%;
+  margin-top: 45%;
 }
 
 .footer a {
